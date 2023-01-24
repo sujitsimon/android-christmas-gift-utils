@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+./qr_code_generator/*.png
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
