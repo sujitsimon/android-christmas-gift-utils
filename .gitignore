@@ -128,3 +128,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#CredentialsJSON
+db_uploader/credentials.json
+
+#NameFiles
+db_uploader/Name.csv
+db_uploader/Name.xlsx
+
+#PrizeFiles
+qr_code_generator/prize_list/PrizeList.xlsx
