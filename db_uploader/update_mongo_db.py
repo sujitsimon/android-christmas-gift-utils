@@ -8,9 +8,9 @@ with open('credentials.json') as fptr:
     
 prize_list_file = "..\qr_code_generator\prize_list\PrizeList.xlsx"
 name_list_file = "Name.xlsx"
-heading = []
 
 def get_upload_data(file_name):
+    heading = []
     workbook = load_workbook(file_name)
     sheet = workbook.active
     return_array = []
